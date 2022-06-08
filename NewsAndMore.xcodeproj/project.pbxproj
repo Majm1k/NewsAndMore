@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DB10DB62850C3B600DBCEF1 /* Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB10DB52850C3B500DBCEF1 /* Additions.swift */; };
 		4DB2FBDA284F7142001E8165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2FBD9284F7142001E8165 /* AppDelegate.swift */; };
 		4DB2FBDC284F7142001E8165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2FBDB284F7142001E8165 /* SceneDelegate.swift */; };
 		4DB2FBDE284F7142001E8165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2FBDD284F7142001E8165 /* ViewController.swift */; };
 		4DB2FBE1284F7142001E8165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB2FBDF284F7142001E8165 /* Main.storyboard */; };
 		4DB2FBE3284F7143001E8165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB2FBE2284F7143001E8165 /* Assets.xcassets */; };
 		4DB2FBE6284F7143001E8165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB2FBE4284F7143001E8165 /* LaunchScreen.storyboard */; };
+		4DB2FBEE284F71D8001E8165 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2FBED284F71D8001E8165 /* APICaller.swift */; };
+		4DB2FBF2284F9436001E8165 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2FBF1284F9436001E8165 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DB10DB52850C3B500DBCEF1 /* Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additions.swift; sourceTree = "<group>"; };
 		4DB2FBD6284F7142001E8165 /* NewsAndMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAndMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB2FBD9284F7142001E8165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DB2FBDB284F7142001E8165 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		4DB2FBE2284F7143001E8165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB2FBE5284F7143001E8165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DB2FBE7284F7143001E8165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB2FBED284F71D8001E8165 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		4DB2FBF1284F9436001E8165 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				4DB2FBD9284F7142001E8165 /* AppDelegate.swift */,
 				4DB2FBDB284F7142001E8165 /* SceneDelegate.swift */,
 				4DB2FBDD284F7142001E8165 /* ViewController.swift */,
+				4DB2FBF1284F9436001E8165 /* NewsTableViewCell.swift */,
+				4DB2FBED284F71D8001E8165 /* APICaller.swift */,
+				4DB10DB52850C3B500DBCEF1 /* Additions.swift */,
 				4DB2FBDF284F7142001E8165 /* Main.storyboard */,
 				4DB2FBE2284F7143001E8165 /* Assets.xcassets */,
 				4DB2FBE4284F7143001E8165 /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			files = (
 				4DB2FBDE284F7142001E8165 /* ViewController.swift in Sources */,
 				4DB2FBDA284F7142001E8165 /* AppDelegate.swift in Sources */,
+				4DB2FBF2284F9436001E8165 /* NewsTableViewCell.swift in Sources */,
+				4DB10DB62850C3B600DBCEF1 /* Additions.swift in Sources */,
 				4DB2FBDC284F7142001E8165 /* SceneDelegate.swift in Sources */,
+				4DB2FBEE284F71D8001E8165 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
